@@ -52,10 +52,10 @@ export const LandingHomme = () => {
         <Container className="mt-3">
           <Row className="align-items-center">
             <Col lg={6} className="">
-              <h1 className="mt-3 mb-0 header_text  text-white fs-1">
+              <h1 className="mt-3 mb-0 animate__fadeInDown animate__animated header_text animate__slow  text-white fs-1">
                 Take control of your mental health journey now!
               </h1>
-              <p className="header_paragraph text-secondary">
+              <p className="header_paragraph text-secondary animate__fadeIn animate__animated animate__slow">
                 Join our inclusive mental health platform to share experiences,
                 gain insights, find support, and connect with therapists. Start
                 your journey towards well-being today!
@@ -121,7 +121,7 @@ export const LandingHomme = () => {
             <Row className="my-5 align-items-center flex-column flex-md-row gap-5 ">
               <Col className={items.order}>
                 <img
-                  className="img-fluid  section_img"
+                  className="img-fluid animate__zoomIn animate__animated   section_img"
                   src={items.image}
                   alt=""
                 />

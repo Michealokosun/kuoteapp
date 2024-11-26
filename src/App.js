@@ -1,9 +1,10 @@
 import "./App.css";
+import "animate.css";
+
 import { LandingHomme } from "./pages/landing_home/landing";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import { Login } from "./pages/login/Login";
 import { Register } from "./pages/register/register";
-import { Home } from "./pages/home/Home";
 function App() {
   return (
     <BrowserRouter>
@@ -12,7 +13,6 @@ function App() {
           <Route path="/" element={<LandingHomme />} />
           <Route path="/auth/login" element={<Login />} />
           <Route path="/auth/register" element={<Register />} />
-          <Route path="/Home" element={<Home />} />
         </Routes>
       </div>
     </BrowserRouter>
